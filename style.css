@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+canvas {
+  border: 1px solid black;
+  margin-bottom: 20px; /* Space between canvas and the legend */
+}
+#tooltip {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 5px;
+  display: none;
+  pointer-events: none;
+}
+/* Style for the legend box */
+#legend-container {
+  padding: 15px;
+  border: 1px solid black;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+#legend-container h2 {
+  margin: 0 0 10px;
+  text-align: center;
+}
+#legend-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+#legend-container ul li {
+  margin-bottom: 5px;
+}
+.legend-symbol {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.legend-walls {
+  background-color: black;
+}
+.legend-doors {
+  background-color: blue;
+}
+.legend-furniture {
+  background-color: green;
+}

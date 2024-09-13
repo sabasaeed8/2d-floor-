@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive 2D Floorplan Viewer</title>
+</head>
+<body>
+
+  <!-- Canvas for the floorplan -->
+  <canvas id="floorplanCanvas"></canvas>
+  
+  <!-- Tooltip for hovering furniture -->
+  <div id="tooltip"></div>
+
+  <!-- Legend and title box below the floorplan -->
+  <div id="legend-container">
+    <h2>2D Floor Plan Viewer</h2>
+    <ul>
+      <li><span class="legend-symbol legend-walls"></span> Walls</li>
+      <li><span class="legend-symbol legend-doors"></span> Doors</li>
+      <li><span class="legend-symbol legend-furniture"></span> Furniture</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script> 
+
+</body>
+</html>
+
